@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Limbaje de programare | Limbaje noi</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="../images/demo/icon.ico" rel="shortcut icon">
+</head>
+<body id="top">
+<!-- Top Background Image Wrapper -->
+<div class="bgded overlay" style="background-image:url('../images/demo/backgrounds/Rain of Code.png');"> 
+  <div class="wrapper row1">
+    <header id="header" class="hoc clear"> 
+      <div id="logo" class="fl_left">
+        <h1><a href="../index.html">Limbaje de programare</a></h1>
+      </div>
+      <nav id="mainav" class="fl_right">
+        <ul class="clear">
+          <li><a href="../index.html">Home</a></li>
+          <li class="active"><a class="drop" href="#">Scurtături</a>
+            <ul>
+              <li><a href="#c">C</a></li>
+              <li><a href="#pascal">Pascal</a></li>
+              <li><a href="#c++">C++</a></li>
+			  <li><a href="#python">Python</a></li>
+			  <li><a href="limbaje-noi-2.html#ruby">Ruby</a></li>
+			  <li><a href="limbaje-noi-2.html#php">PHP</a></li>
+			  <li><a href="limbaje-noi-2.html#java">Java</a></li>
+			  <li><a href="limbaje-noi-2.html#js">JavaScript</a></li>
+            </ul>
+          </li>
+          <li><a class="drop" href="#">Limbaje</a>
+            <ul>
+              <li><a class="drop" href="limbaje-vechi.html">Începuturi</a>
+                <ul>
+                  <li><a href="limbaje-vechi.html#fortran">Fortran</a></li>
+                  <li><a href="limbaje-vechi.html#cobol">COBOL</a></li>
+                  <li><a href="limbaje-vechi.html#basic">BASIC</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="top.html">Top Limbaje</a></li>
+          <li><a href="curiozitati.html">Curiozități</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+  <div class="wrapper row2">
+    <div id="breadcrumb" class="hoc clear"> 
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li>Limbaje moderne</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- End Top Background Image Wrapper -->
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <div class="content"> 
+      <h1 id="c" style="font-size:36px; color:#A3BF00">C</h1>
+	  <p>C este un limbaj de programare standardizat. Este implementat pe majoritatea platformelor de calcul existente azi, și este cel mai popular limbaj de programare pentru scrierea de software de sistem. Este apreciat pentru eficiența codului obiect generat de compilatoarele C, și pentru portabilitatea sa.</p>
+	  <p>A fost dezvoltat la începutul anilor 1970 de Ken Thompson și Dennis Ritchie, care aveau nevoie de un limbaj simplu și portabil pentru scrierea nucleului sistemului de operare UNIX.</p>
+	  <p>C este un limbaj de programare relativ minimalist ce operează în strânsă legătură cu hardware-ul, fiind cel mai apropiat de limbajul de asamblare față de majoritatea celorlalte limbaje de programare.</p>
+	  <p>C este prezentat uneori ca „asamblor portabil”, făcându-se astfel diferențele principale față de limbajele de asamblare: codul unui program C poate fi compilat și rulat pe aproape orice tip de mașină (calculator), asemănător altor limbaje de programare, în timp ce limbajele de asamblare sunt specifice unui anumit model de mașină. Limbajul C aparține clasei limbajelor de nivel scăzut sau de nivel mediu, aceasta indicând strânsa legătură între interoperabilitate și echipamentul hardware.</p>
+	  <img style="display:block; margin-left:auto; margin-right:auto"class="borderedbox inspace-5 w3-animate-opacity" src="../images/demo/cprogram.jpg" alt="">
+	  <p>C a fost creat având drept scop important de a face ca programele mari să poată fi scrise mai ușor și cu mai puține erori în paradigma programării procedurale, dar fără a pune un obstacole în scrierea compilatorului de C, care este încărcat de caracteristicile complexe ale limbajului. C are urmatoarele caracteristici importante:</p>
+	  <ul>
+		<li>Este un limbaj de bază simplu, cu importante funcționalități cum ar fi funcțiile matematice sau cele de manipulare ale fișierelor</li>
+		<li>Este focalizat pe paradigma programării procedurale, care facilitează programarea într-un mod structurat</li>
+		<li>Utilizează un set simplu de tipuri de date ce împiedică multe operații neintenționate</li>
+		<li>Folosește un limbaj preprocesor, preprocesorul C, pentru sarcini cum ar fi definirea de macrouri și includerea mai multor fișiere sursă</li>
+		<li>Permite accesarea la nivel scăzut a memoriei calculatorului prin utilizarea pointerilor</li>
+		<li>Permite folosirea parametrilor, care sunt comunicați funcțiilor prin valoare și nu prin referință</li>
+		<li>Pointeri la funcții, ce permit forme rudimentare de închidere (engleză closure) și polimorfism</li>
+		<li>Structuri de date sau tipuri de date agregate, definite de utilizator prin (struct), ce permit ca date înrudite să fie combinate și manipulate ca un întreg</li>
+	  </ul>
+	  <p>Deși lista minusurilor limbajului C este destul de lungă, aceasta nu reprezintă un dezavantaj suficient de mare pentru inhiba utilizarea limbajului C în practică, deoarece permite ca noi compilatoare să poată fi scrise pe noi tipuri de platforme și pentru că permite programatorului să țină bine sub control programul pe care îl scrie. Acesta este unul din motivele care face ca un cod scris în C să fie mult mai eficient decât dacă ar fi scris în alte limbaje de programare. Numai un cod scris cu foarte mare grijă într-un limbaj de asamblare poate fi mai performant, deoarece are control integral asupra mașinii, dar performanța avansată a compilatoarelor, combinată cu complexitatea noilor tipuri de procesoare, a făcut ca limbajul C să fie preferat și să fie acceptat din ce în ce mai mult de programatori.</p>
+	  <p style="visibility: hidden">Lorem ipsum gjrngkej bjrtnb lsdfnlvjn ldn asdfghb kdbflskb kjdsbf sșldjnbskdj nslkdjbnslk abnrlsnbs ntlbsnfbj.</p>
+	  <h3>Hituri:</h3>
+	  <ul class="fa-ul clear">
+          <li class="one_half first"><i class="fa-li fa fa-underline"></i>
+            <h6 class="heading btmspace-10 font-x1">Unix</h6>
+            <p><a style="color:#A3BF00" href="https://ro.wikipedia.org/wiki/UNIX" target="_blank">Link rapid</a></p>
+          </li>
+          <li class="one_half"><i class="fa-li fa fa-code"></i>
+            <h6 class="heading btmspace-10 font-x1">Python</h6>
+            <p><a style="color:#A3BF00" href="https://www.python.org/" target="_blank">Link rapid</a></p>
+          </li>
+          <li class="one_half first"><i class="fa-li fa fa-code"></i>
+            <h6 class="heading btmspace-10 font-x1">Perl</h6>
+            <p><a style="color:#A3BF00" href="https://www.perl.org/" target="_blank">Link rapid</a></p>
+          </li>
+          <li class="one_half"><i class="fa-li fa fa-terminal"></i>
+            <h6 class="heading btmspace-10 font-x1">PHP</h6>
+            <p><a style="color:#A3BF00" href="http://php.net/" target="_blank">Link rapid</a></p>
+          </li>
+        </ul>
+	  <p style="visibility: hidden">Lorem ipsum gjrngkej bjrtnb lsdfnlvjn ldn asdfghb kdbflskb kjdsbf sșldjnbskdj nslkdjbnslk abnrlsnbs ntlbsnfbj.</p>
+	  <!--=================================================================================================================================================================================================================-->
+	  <h1 id="pascal" style="font-size:36px; color:#A3BF00">Pascal</h1>
+	  <p>Pascal este unul dintre limbajele de programare de referință în știința calculatoarelor. Pascal a fost dezvoltat de elvețianul Niklaus Wirth în 1970 pentru a pune în practică programarea structurată, aceasta fiind mai ușor de compilat. Unul din marile sale avantaje este asemănarea cu limbajul natural limba engleză, ceea ce îl face limbajul ideal pentru cei care sunt la primul contact cu programarea. Pascal este bazat pe limbajul Algol și a fost denumit astfel în onoarea matematicianului Blaise Pascal, creditat pentru construirea primelor mașini de calcul numeric. Wirth a mai dezvoltat limbajele Modula-2 și Oberon, similare cu Pascal.</p>
+	  <p>Cele mai populare implementări a acestui limbaj au fost Turbo Pascal și Borland Pascal, ambele ale firmei Borland cu versiuni pentru Macintosh și DOS, care i-au adăugat limbajului obiecte și au fost continuate cu versiuni destinate programării vizuale pentru Microsoft Windows (utilizate de mediul de dezvoltare Delphi) și pentru Linux (Kylix).</p>
+	  <img style="display:block; margin-left:auto; margin-right:auto" class="borderedbox inspace-5 w3-animate-opacity" src="../images/demo/cool-pascal.jpg" alt="">
+	  <p>În prezent există și alte implementări mai mult sau mai puțin populare, dar gratuite, printre care se remarcă Free Pascal și GNU Pascal.</p>
+	  <p>Deși în prezent este relativ rar folosit în industria software, el este încă util elevilor și studenților care doresc să se inițieze în programare. Spre deosebire de BASIC, care a stat în trecut la baza învățării programării, Pascal este un limbaj structurat. De aceea, el formează un anumit tip de gândire, similar limbajelor moderne, precum C++, dar nu deține complexitatea și abstractizarea acestuia din urmă, fiind mai ușor de înțeles datorită sintaxei simple și apropiate de pseudocod.</p>
+	  <p style="visibility: hidden">Lorem ipsum gjrngkej bjrtnb lsdfnlvjn ldn asdfghb kdbflskb kjdsbf sșldjnbskdj nslkdjbnslk abnrlsnbs ntlbsnfbj.</p>
+	  <!--=================================================================================================================================================================================================================-->
+	  <h1 id="c++" style="font-size:36px; color:#A3BF00">C++</h1>
+	  <p>C++ este un limbaj de programare general, compilat. Este un limbaj multi-paradigmă, cu verificarea statică a tipului variabilelor ce suportă programare procedurală, abstractizare a datelor, programare orientată pe obiecte. În anii 1990, C++ a devenit unul din cele mai populare limbaje de programare comerciale, rămânând astfel până azi.</p>
+	  <p>Bjarne Stroustrup de la Bell Labs a dezvoltat C++ (inițial denumit C cu clase) în anii 1980, ca o serie de îmbunătățiri ale limbajului C. Acestea au început cu adăugarea noțiunii de clase, apoi de funcții virtuale, suprascrierea operatorilor, moștenire multiplă, șabloane (engleză template) și excepții. Limbajul de programare C++ a fost standardizat în 1998 ca și ISO 14882:1998, versiunea curentă fiind din 2003, ISO 14882:2003. Următoarea versiune standard, cunoscută informal ca C++0x, este în lucru.</p>
+	  <img style="display:block; margin-left:auto; margin-right:auto" class="borderedbox inspace-5 w3-animate-opacity" src="../images/demo/c++.jpg" alt="">
+	  <p>Stroustrup a început să lucreze la C cu clase în 1979. Ideea creării unui nou limbaj a venit din experiența de programare pentru pregătirea tezei sale de doctorat. Stroustrup a descoperit că Simula avea facilități foarte utile pentru proiecte mari, însă era prea lent, în timp ce BCPL era rapid, însă nu era de nivel înalt și era nepotrivit pentru proiecte mari. Când a început să lucreze pentru Bell Labs, avea sarcina de a analiza nucleul UNIX referitor la calcul distribuit. Amintindu-și de experiența sa din perioada lucrării de doctorat, Stroustrup a început să îmbunătățească C cu facilități asemănătoare Simula. C a fost ales deoarece era rapid și portabil. La început facilitățile adaugate C-ului au fost clase, clase derivate, verificare a tipului, inline și argumente cu valori implicite.</p>
+	  <p>În 1982, numele limbajului a fost schimbat de la C cu clase la C++. Au fost adaugate noi facilități, inclusiv funcții virtuale, supraîncărcarea operatorilor și a functiilor, referințe, constante, alocare dinamică, un control al tipului mai puternic și noua variantă de comentariu pe un singur rând (liniile care încep cu caracterele '//').</p>
+	  <p>În 1985 a fost lansată prima ediție a cărții "The C++ Programming Language" (Limbajul de programare C++), oferind informații importante despre limbaj, care încă nu era un standard oficial. În 1989 a fost lansată versiunea 2.0 a C++. Au apărut acum moștenirea multiplă, clase abstracte, funcții statice, funcții constante și membri protected. În 1990 o altă carte a fost lansată, oferind suport pentru standarde viitoare. Ultimele adăugări includeau template-uri, excepții, spații de nume (namespace-uri) și tipul boolean.</p>
+	  <p>O dată cu evoluția limbajului C++, a evoluat și o bibliotecă standard. Prima adăugire a fost biblioteca de intrări/ieșiri (I/O stream), care oferea facilități pentru a înlocui funcțiile tradiționale C cum ar fi printf și scanf. Mai târziu, printre cele mai semnificative adăugari la biblioteca standard a fost STL (Standard Template Library) (Biblioteca de formate standard). După ani de lucru, un comitet ANSI-ISO a standardizat C++ în 1998 (ISO/IEC 14882:1998).</p>
+	  <p style="visibility: hidden">Lorem ipsum gjrngkej bjrtnb lsdfnlvjn ldn asdfghb kdbflskb kjdsbf sșldjnbskdj nslkdjbnslk abnrlsnbs ntlbsnfbj.</p>
+	  <h3>Hituri:</h3>
+	  <ul class="fa-ul clear">
+          <li class="one_half first"><i class="fa-li fa fa-windows"></i>
+            <h6 class="heading btmspace-10 font-x1">Windows</h6>
+            <p><a style="color:#A3BF00" href="https://www.microsoft.com/en-us/windows" target="_blank">Link rapid</a></p>
+          </li>
+          <li class="one_half"><i class="fa-li fa fa-chrome"></i>
+            <h6 class="heading btmspace-10 font-x1">Google Chrome</h6>
+            <p><a style="color:#A3BF00" href="https://www.google.com/chrome/" target="_blank">Link rapid</a></p>
+          </li>
+          <li class="one_half first"><i class="fa-li fa fa-fighter-jet"></i>
+            <h6 class="heading btmspace-10 font-x1">Sofware avioane F-35</h6>
+            <p><a style="color:#A3BF00" href="https://ro.wikipedia.org/wiki/F-35_Lightning_II" target="_blank">Link rapid</a></p>
+          </li>
+        </ul>
+	  <p style="visibility: hidden">Lorem ipsum gjrngkej bjrtnb lsdfnlvjn ldn asdfghb kdbflskb kjdsbf sșldjnbskdj nslkdjbnslk abnrlsnbs ntlbsnfbj.</p>
+	  <!--=================================================================================================================================================================================================================-->
+	  <h1 id="python" style="font-size:36px; color:#A3BF00">Python</h1>
+	  <p>Python este un limbaj de programare dinamic multi-paradigmă, creat în 1989 de programatorul olandez Guido van Rossum. Van Rossum este și în ziua de astăzi un lider al comunității de dezvoltatori de software care lucrează la perfecționarea limbajul Python și implementarea de bază a acestuia, CPython, scrisă în C. Python este un limbaj multifuncțional folosit de exemplu de către companii ca Google sau Yahoo! pentru programarea aplicațiilor web, însă există și o serie de aplicații științifice sau de divertisment programate parțial sau în întregime în Python. Popularitatea în creștere, dar și puterea limbajului de programare Python au dus la adoptarea sa ca limbaj principal de dezvoltare de către programatori specializați și chiar și la predarea limbajului în unele medii universitare. Din aceleași motive, multe sisteme bazate pe Unix, inclusiv Linux, BSD și Mac OS X includ din start interpretatorul CPython.</p>
+	  <p>Python pune accentul pe curățenia și simplitatea codului, iar sintaxa sa le permite dezvoltatorilor să exprime unele idei programatice într-o manieră mai clară și mai concisă decât în alte limbaje de programare ca C. În ceea ce privește paradigma de programare, Python poate servi ca limbaj pentru software de tipul object-oriented, dar permite și programarea imperativă, funcțională sau procedurală. Sistemul de tipizare este dinamic iar administrarea memoriei decurge automat prin intermediul unui serviciu „gunoier” (garbage collector). Alt avantaj al limbajului este existența unei ample biblioteci standard de metode.</p>
+	  <p>Implementarea de referință a Python este scrisă în C și poartă deci numele de CPython. Această implementare este software liber și este administrată de fundația Python Software Foundation.</p>
+	  <img style="display:block; margin-left:auto; margin-right:auto" class="inspace-5 w3-animate-opacity" src="../images/demo/python.png" alt="">
+	  <p>Python este un limbaj multi-paradigmă, concentrându-se asupra programării imperative, orientate pe obiecte și funcționale, ceea ce permite o flexibilitate mai mare în scrierea aplicațiilor. Din punctul de vedere al sintaxei, Python are un număr de contrucții și cuvinte cheie cunoscute oricărui programator, dar prezintă și un concept unic: nivelul de indentare are semnificație sintactică. Blocurile de cod sunt delimitate prin simplă indentare.</p>
+	  <p>În C un astfel de blocuri sunt deseori desemnte prin acolade, {<cod>}, dar în Python nu este nevoie de astfel de construcții. Nivelele de indentare îndeplinesc această funcție. Această importanță a indentării este foarte suprinzătoare pentru mulți utilizatori noi ai limbajului Python, chiar dacă sunt programatori cu experiență. Dar o astfel de utilizare a indentării permite codului să fie mai ușor de citit și mai compact. Programatorii cu experiență vor indenta implicit codul sursă, oricare ar fi limbajul, fiindcă astfel se permite structurarea codului sursă și evidențierea funcționalității. Python face din această deprindere folositoare în acest sens o cerință strictă.</p>
+	  <p>O impunere similară există și în limbajul de programare Java, care forțează programatorii să delimiteze clasele în fișiere aparte, din motive de organizare și sporire a eficienței de scriere a softului în echipe.</p>
+	  <p>Popularitatea limbajului este în creștere începând cu anul 2000, datorită faptului că Python permite crearea mai rapidă a aplicațiilor care nu cer viteze înalte de procesare a datelor. De asemenea este util ca limbaj de scriptare, utilizat în cadrul aplicațiilor scrise în alte limbaje. Modulele (bibliotecile) Python pot fi de asemenea scrise în C, compilate și importate în Python pentru a mări viteza de procesare.</p>
+	  <p style="visibility: hidden">Lorem ipsum gjrngkej bjrtnb lsdfnlvjn ldn asdfghb kdbflskb kjdsbf sșldjnbskdj nslkdjbnslk abnrlsnbs ntlbsnfbj.</p>
+	  <h3>Hituri:</h3>
+	  <ul class="fa-ul clear">
+          <li class="one_half first"><i class="fa-li fa fa-instagram"></i>
+            <h6 class="heading btmspace-10 font-x1">Instagram</h6>
+            <p><a style="color:#A3BF00" href="https://www.instagram.com/?hl=en" target="_blank">Link rapid</a></p>
+          </li>
+          <li class="one_half"><i class="fa-li fa fa-pinterest"></i>
+            <h6 class="heading btmspace-10 font-x1">Pinterest</h6>
+            <p><a style="color:#A3BF00" href="https://www.pinterest.com/" target="_blank">Link rapid</a></p>
+          </li>
+          <li class="one_half first"><i class="fa-li fa fa-spotify"></i>
+            <h6 class="heading btmspace-10 font-x1">Spotify</h6>
+            <p><a style="color:#A3BF00" href="https://www.spotify.com/ro/" target="_blank">Link rapid</a></p>
+          </li>
+          <li class="one_half"><i class="fa-li fa fa-youtube"></i>
+            <h6 class="heading btmspace-10 font-x1">YouTube</h6>
+            <p><a style="color:#A3BF00" href="https://www.youtube.com/" target="_blank">Link rapid</a></p>
+          </li>
+        </ul>
+		<p style="visibility: hidden">Lorem ipsum gjrngkej bjrtnb lsdfnlvjn ldn asdfghb kdbflskb kjdsbf sșldjnbskdj nslkdjbnslk abnrlsnbs ntlbsnfbj.</p>
+		<p><a style="color:#A3BF00" href="limbaje-noi-2.html">Pagina următoare ></a></p>
+    </div>
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - Roșu Cristian - Mihai</p>
+    <!--<p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>-->
+  </div>
+</div>
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="../layout/scripts/jquery.min.js"></script>
+<script src="../layout/scripts/jquery.backtotop.js"></script>
+<script src="../layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>
